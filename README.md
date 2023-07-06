@@ -1,4 +1,4 @@
-# basicregistrationform
+# BasicRegistrationForm
 Built basic html registration form!
 
 - Example preview
