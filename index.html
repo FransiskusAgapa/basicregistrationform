@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>registrationform</title>
+    <style>
+       
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Registration Form</h1>
+    </div>
+    <div>
+      <label>Name:*</label>
+      <input type="text" name="name" placeholder="your name..." />
+    </div>
+    <div>
+      <label>LastName:*</label>
+      <input type="text" name="lastname" placeholder="your last name" />
+    </div>
+    <div>
+      <label>Email Address:* </label>
+      <input type="text" name="email" placeholder="your email..." />
+    </div>
+    <div>
+      <label>Password:* </label>
+      <input type="password" name="password" />
+    </div>
+    <div>
+      <label>Confirm Password:* </label>
+      <input type="password" name="confirmpass" />
+    </div>
+    <div>
+      <label>Birthday: </label>
+      <input type="date" name="birthday" />
+    </div>
+    <div>
+      <p>Gender Identity:</p>
+      <input type="radio" name="font" value="male" id="male" />
+      <label>Male</label>
+      <!--limiter-->
+      <input type="radio" name="font" value="female" id="female"/>
+      <labe>Female</label>
+      <!--limiter-->
+      <input type="radio" name="font" value="Non-binary" id="Non-binary"/>
+      <label>Non-binary</label>
+      <!--limiter-->
+      <input type="radio" name="font" value="noanswer" id="noanswer"/>
+      <label>Prefer not to answer</label>
+    </div>
+    <dv>
+        <p>A short description of myself:</p>
+        <textarea name="comment" cols="30" rows="5"></textarea>
+    </dv>
+    <div>
+        <labe>Favorite language: </labe>
+        <select>
+            <option>C++</option>
+            <option>Java</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="offers" id="offers" checked />
+        <label for="offers">Yes, I would like to receive periodic emails email updates</label>
+    </div>
+    <div>
+        <input type="submit" value="Create an account"/>
+    </div>
+    <p>* Indicates a required field</p>
+  </body>
+</html>
