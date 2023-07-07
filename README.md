@@ -1,5 +1,5 @@
 # BasicRegistrationForm
-Built basic html registration form!
+Built basic html registration form from scratch!
 
 - Example preview
 
